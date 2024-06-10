@@ -1,0 +1,12 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: Actual_Speed
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Actual_Speed"

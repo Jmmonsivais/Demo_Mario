@@ -1,0 +1,12 @@
+Name: 'Program:SafetyProgram'
+Type: FolderType
+Children:
+- Name: Safety_Test
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Safety_Test"
